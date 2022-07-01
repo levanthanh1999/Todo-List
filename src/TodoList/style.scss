@@ -1,0 +1,60 @@
+.todoList {
+    margin: 0 400px;
+    .title {
+        background-color: aquamarine;
+    }
+
+    .addTask {
+        float:left;
+        width: 50%;
+        .title1 {
+            padding: 10px;
+            background-color: aqua;
+        }
+        #input {
+            width: 98%;
+            float:left;
+        }
+        .btn-add, .btn-clear {
+            margin: 10px 10px 10px 0;
+            padding: 4px;
+        }
+        .btn-add {
+            float:left;
+            background-color: yellow;
+            border-radius: 8px;
+            &:hover {
+                background-color: #777;
+            }
+        }
+        .btn-clear{
+            float:right;
+            background-color: red;
+            border-radius: 8px;
+            &:hover {
+                background-color: #777;
+            }
+        }
+    }
+
+    .taskList {
+        width:50%;
+        float: right;
+        .title2 {
+            padding: 10px;
+            background-color: rgb(248, 130, 33);
+        }
+        .mylist {
+            list-style: none;
+            border: 2px solid black;
+            color: white;
+            background-color: red;
+        }
+        .btn-x {
+            background-color: #777;
+            color: #333;
+        }
+    }
+    
+
+}
